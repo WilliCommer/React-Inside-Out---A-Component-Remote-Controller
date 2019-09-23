@@ -4,14 +4,14 @@
 
 ## Contents
 
-- <a href="#toc_1">Source Description</a>
-  - <a href="#toc_2">Event Emitter</a>
-    - <a href="#toc_3">Event Listener Example</a>
-    - <a href="#toc_4">EventEmitter Source</a>
-  - <a href="#toc_5">Controller</a>
-    - <a href="#toc_6">Controller Source</a>
-  - <a href="#toc_7">Component Wrapper</a>
-    - <a href="#toc_8">Component Wrapper Source</a>
+- <a href="#toc_1">Source Description</a>
+    - <a href="#toc_2">Event Emitter</a>
+        - <a href="#toc_3">Event Listener Example</a>
+        - <a href="#toc_4">EventEmitter Source</a>
+    - <a href="#toc_5">Controller</a>
+        - <a href="#toc_6">Controller Source</a>
+    - <a href="#toc_7">Component Wrapper</a>
+        - <a href="#toc_8">Component Wrapper Source</a>
 
 
 
