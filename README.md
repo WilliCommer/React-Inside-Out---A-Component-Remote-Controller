@@ -21,9 +21,9 @@
 
 A Component Remote Controller consists of three parts:
 
-1. [Event Emitter](#Event Emitter)
+1. [Event Emitter](#event-emitter)
 2. [Controller](#Controller)
-3. [Component Wrapper](#Component Wrapper)
+3. [Component Wrapper](#component-wrapper)
 
 
 
