@@ -4,12 +4,19 @@
 
 ## Contents
 
-[TOC]
+- <a href="#toc_1">Source Description</a>
+  - <a href="#toc_2">Event Emitter</a>
+    - <a href="#toc_3">Event Listener Example</a>
+    - <a href="#toc_4">EventEmitter Source</a>
+  - <a href="#toc_5">Controller</a>
+    - <a href="#toc_6">Controller Source</a>
+  - <a href="#toc_7">Component Wrapper</a>
+    - <a href="#toc_8">Component Wrapper Source</a>
 
 
 
+<a name="toc_1"></a>
 ## Source Description
-
 
 
 A Component Remote Controller consists of three parts:
@@ -22,10 +29,12 @@ A Component Remote Controller consists of three parts:
 
 
 
+<a name="toc_2"></a>
 ### Event Emitter
 
 The EventEmitter is a simple pattern that allows you to create an object that emits events, and allow you to listen to those events. The `event` is a string and the `listener` is a callback function.
 
+<a name="toc_3"></a>
 #### Event Listener Example
 
 ```javascript
@@ -41,6 +50,7 @@ We will use a simplified version of the *node* [EventEmitter](https://nodejs.org
 
 
 
+<a name="toc_4"></a>
 #### EventEmitter Source
 
 ```javascript
@@ -86,10 +96,12 @@ export default class EventEmitter {
 
 
 
+<a name="toc_5"></a>
 ### Controller
 
 
 
+<a name="toc_6"></a>
 #### Controller Source
 
 ```
@@ -140,10 +152,12 @@ export class RemoteController extends EventEmitter {
 
 
 
+<a name="toc_7"></a>
 ### Component Wrapper
 
 
 
+<a name="toc_8"></a>
 #### Component Wrapper Source
 
 
